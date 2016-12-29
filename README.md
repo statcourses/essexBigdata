@@ -3,7 +3,7 @@
 Clustering and Classification in R: Osama Mahmoud and Berthold Lausen
 ---------------------------------------------------------------------
 
-[![Build Status](https://travis-ci.org/Osmahmoud/essexBigdata.svg?branch=master)](https://travis-ci.org/Osmahmoud/essexBigdata)
+[![Build Status](https://travis-ci.org/statcourses/essexBigdata.svg?branch=master)](https://travis-ci.org/statcourses/essexBigdata)
 
 Notes, practicals and R code for the up coming [course](https://www.essex.ac.uk/iads/events/summer-school.aspx) at the University of Essex Big Data and Analytics Summer School, September 2016.
 
@@ -21,7 +21,7 @@ install.packages("drat")
 Then use `drat` to add a new repository
 
 ``` r
-drat::addRepo("Osmahmoud")
+drat::addRepo("statcourses")
 ```
 
 The way for installing packages should now work using
