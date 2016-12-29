@@ -13,7 +13,7 @@ r_packages:
 - drat
 
 after_success:
-  - wget https://raw.githubusercontent.com/Osmahmoud/drat/master/deploy.sh
+  - wget https://raw.githubusercontent.com/statcourses/drat/master/deploy.sh
   - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && bash deploy.sh
 
 env:
